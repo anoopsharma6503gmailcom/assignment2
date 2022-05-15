@@ -44,23 +44,8 @@ print(b<<2)
 #3e right shift a by 2 and b by 4
 print(a>>2)
 print(b>>4) 
-#4
-n1 = int(input("Enter the first number\n"))
-n2 = int(input("Enter the second number\n"))
-n3 = int(input("Enter the third number\n"))
 
-#check if n1 is greater than n2 and similarly ahead for the same
-if n1>n2:
-    if n1>n3:
-        print("The greatest of three numbers is", n1)
-    else:
-        print("The greatest of three numbers is", n3)
-elif n1<n2:
-    if n2>n3:
-        print("The greatest of three numbers is", n2)
-    else:
-        print("The greatest of three numbers is", n3) 
-#5
+#4
 inp_str = input("Enter your string\n")
 #now find the string using 'in' function
 if "name" in inp_str:
@@ -68,7 +53,7 @@ if "name" in inp_str:
     print("Yes")
 else:
     print("NO") 
-#6
+#5
 a = int(input("Enter first length\n"))
 b = int(input("Enter second length\n"))
 c = int(input("Enter third length\n"))
@@ -98,16 +83,16 @@ Pythonisacasesensitivelanguage
 
 #2
 Hi Pecian, Please enter your name
-guatam
+anoop
 Please enter you SID[eg.2110XXXX]
-21103052
+21102032
 Please enter your department[eg.CSE,ECE,ELE,etc.]
-cse
+civil
 Please enter your CGPA[eg.5.5,9.0,10.0]
 9.9
-Hey, guatam Here!
-My SID is 21103052
-I am from cse department and my CGPA is 9.9
+Hey, anoop Here!
+My SID is 21102032
+I am from civil department and my CGPA is 9.9
 
 #3
 (a) 8
@@ -118,22 +103,14 @@ I am from cse department and my CGPA is 9.9
 (e) 14
     0
 
-#4 
-Enter the first number
-85
-Enter the second number
-6
-Enter the third number
-50
-The greatest of three numbers is 85
 
-#5
-hi, my name is gautam
+#4
+hi, my name is anoop
 Yes
 hi, i am from pec
 NO
 
-#6
+#5
 Enter first length
 8
 Enter second length
