@@ -62,6 +62,15 @@ if a+b<=c or a+c<=b or c+b<=a:
     print("No")
 else:
     print("Yes") 
+#6
+a=int(input("enter the number:"))
+b=int(input("enter the number:"))
+num=a^b
+count_flipped_bit=0
+while(num !=0):
+    num=num&(num-1)
+    count_flipped_bit+=1
+print(count_flipped_bit)
 #SOLUTIONS
 #1a
 35
