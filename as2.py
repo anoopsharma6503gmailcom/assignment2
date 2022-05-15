@@ -2,3 +2,150 @@
 #a
 str1="Python is a case sensitive language"
 print(len(str1))
+#b
+str1 = "Python is a case sensitive language"
+print(str1[::-1]) 
+#c
+str1 = "Python is a case sensitive language"
+str2 = str1[10:26]
+print(str2)
+#d
+str1 = "Python is a case sensitive language"
+print(str1.replace("a case sensitive", "object oriented"))
+#e
+str1 = "Python is a case sensitive language"
+print(str1.find("a"))
+#f
+str1 = "Python is a case sensitive language"
+#to replace white spaces we can replace spaces with blank
+print(str1.replace(" ", "")) 
+#2
+inp_name = input("Hi Pecian, Please enter your name\n")
+inp_SID = input("Please enter you SID[eg.2110XXXX]\n")
+inp_course = input("Please enter your department[eg.CSE,ECE,ELE,etc.]\n")
+inp_CGPA = input("Please enter your CGPA[eg.5.5,9.0,10.0]\n")
+
+
+print("Hey,",inp_name, "Here!")
+print("My SID is", inp_SID)
+print("I am from", inp_course, "department and my CGPA is", inp_CGPA) 
+#3
+a=56
+b=10
+#3a
+print(a&b)
+#3b
+print(a|b)
+#3c
+print(a^b)
+#3d left shift both by 2
+print(a<<2)
+print(b<<2)
+#3e right shift a by 2 and b by 4
+print(a>>2)
+print(b>>4) 
+#4
+n1 = int(input("Enter the first number\n"))
+n2 = int(input("Enter the second number\n"))
+n3 = int(input("Enter the third number\n"))
+
+#check if n1 is greater than n2 and similarly ahead for the same
+if n1>n2:
+    if n1>n3:
+        print("The greatest of three numbers is", n1)
+    else:
+        print("The greatest of three numbers is", n3)
+elif n1<n2:
+    if n2>n3:
+        print("The greatest of three numbers is", n2)
+    else:
+        print("The greatest of three numbers is", n3) 
+#5
+inp_str = input("Enter your string\n")
+#now find the string using 'in' function
+if "name" in inp_str:
+#print yes or no
+    print("Yes")
+else:
+    print("NO") 
+#6
+a = int(input("Enter first length\n"))
+b = int(input("Enter second length\n"))
+c = int(input("Enter third length\n"))
+#now check one by one that any of the three lengths is greater than the sum of the other two or not
+if a+b<=c or a+c<=b or c+b<=a:
+    print("No")
+else:
+    print("Yes") 
+#SOLUTIONS
+#1a
+35
+
+#1b
+egaugnal evitisnes esac a si nohtyP
+
+#1c
+a case sensitive
+
+#1d
+Python is object oriented language
+
+#1e
+10
+
+#1f
+Pythonisacasesensitivelanguage
+
+#2
+Hi Pecian, Please enter your name
+guatam
+Please enter you SID[eg.2110XXXX]
+21103052
+Please enter your department[eg.CSE,ECE,ELE,etc.]
+cse
+Please enter your CGPA[eg.5.5,9.0,10.0]
+9.9
+Hey, guatam Here!
+My SID is 21103052
+I am from cse department and my CGPA is 9.9
+
+#3
+(a) 8
+(b) 58
+(c) 50
+(d) 224
+    40
+(e) 14
+    0
+
+#4 
+Enter the first number
+85
+Enter the second number
+6
+Enter the third number
+50
+The greatest of three numbers is 85
+
+#5
+hi, my name is gautam
+Yes
+hi, i am from pec
+NO
+
+#6
+Enter first length
+8
+Enter second length
+6
+Enter third length
+10
+Yes
+
+Enter first length
+6
+Enter second length
+5
+Enter third length
+1
+no 
